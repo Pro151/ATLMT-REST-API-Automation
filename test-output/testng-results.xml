@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-25T15:47:10 IST" name="Default suite" finished-at="2022-05-25T15:47:14 IST" duration-ms="4036">
+    <groups>
+    </groups>
+    <test started-at="2022-05-25T15:47:10 IST" name="Default test" finished-at="2022-05-25T15:47:14 IST" duration-ms="4036">
+      <class name="RestTestMain.UpdateProfile">
+        <test-method signature="UpdateProfileInfo()[pri:0, instance:RestTestMain.UpdateProfile@1a4013]" started-at="2022-05-25T15:47:10 IST" name="UpdateProfileInfo" finished-at="2022-05-25T15:47:14 IST" duration-ms="3993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateProfileInfo -->
+      </class> <!-- RestTestMain.UpdateProfile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [REST API Automation]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="RestTestMain.ChangePass">
+        <methods>
+          <include name="ChangePassword"/>
+        </methods>
+      </class> <!-- RestTestMain.ChangePass -->
+      <class name="RestTestMain.DisableTwoFactorAuth">
+        <methods>
+          <include name="DisTwoFactor"/>
+        </methods>
+      </class> <!-- RestTestMain.DisableTwoFactorAuth -->
+      <class name="RestTestMain.EnableTwoFactor">
+        <methods>
+          <include name="TwoFactor"/>
+          <include name="EnTwoFactor"/>
+        </methods>
+      </class> <!-- RestTestMain.EnableTwoFactor -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [REST API Automation] -->
